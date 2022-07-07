@@ -1,8 +1,8 @@
 function App() {
   return (
-    <div>
-     AUTH
-    </div>
+    <main className='App'>
+     <Register />
+    </main>
   );
 }
 
