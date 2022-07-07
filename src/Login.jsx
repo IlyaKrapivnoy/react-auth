@@ -56,6 +56,7 @@ const Login = () => {
               value={user}
               required
             />
+
             <label htmlFor="password">Password:</label>
             <input
               type="password"
@@ -64,8 +65,8 @@ const Login = () => {
               value={pwd}
               required
             />
+            <button>Sign In</button>
           </form>
-          <button>Sign In</button>
           <p>
             Need an Account?
             <br />
